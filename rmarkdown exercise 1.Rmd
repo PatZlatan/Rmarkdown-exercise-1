@@ -1,0 +1,32 @@
+---
+title: "Exercise 1"
+author: "Victor Mandela"
+date: "January 9, 2020"
+output: html_document
+---
+
+### Exercises
+
+1.  Create a new notebook using _File > New File > R Notebook_. Read the 
+    instructions. Practice running the chunks. Verify that you can modify
+    the code, re-run it, and see modified output.
+    
+1.  Create a new R Markdown document with _File > New File > R Markdown..._
+    Knit it by clicking the appropriate button. Knit it by using the 
+    appropriate keyboard short cut. Verify that you can modify the
+    input and see the output update.
+    
+1.  Compare and contrast the R notebook and R markdown files you created
+    above. How are the outputs similar? How are they different? How are
+    the inputs similar? How are they different? What happens if you
+    copy the YAML header from one to the other?
+
+1.  Create one new R Markdown document for each of the three built-in
+    formats: HTML, PDF and Word. Knit each of the three documents.
+    How does the output differ? How does the input differ? (You may need
+    to install LaTeX in order to build the PDF output --- RStudio will
+    prompt you if this is necessary.)
+
+## Text formatting with Markdown
+
+Prose in `.Rmd` files is written in Markdown, a lightweight set of conventions for formatting plain text files. Markdown is designed to be easy to read and easy to write. It is also very easy to learn. The guide below shows how to use Pandoc's Markdown, a slightly extended version of Markdown that R Markdown understands.
