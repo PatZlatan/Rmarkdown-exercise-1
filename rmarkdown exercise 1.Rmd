@@ -1,32 +1,32 @@
 ---
-title: "Exercise 1"
+title: "R amckdown hacks"
 author: "Victor Mandela"
-date: "January 9, 2020"
+date: "January 9, 2019"
 output: html_document
 ---
 
-### Exercises
+# R Markdown
 
-1.  Create a new notebook using _File > New File > R Notebook_. Read the 
-    instructions. Practice running the chunks. Verify that you can modify
-    the code, re-run it, and see modified output.
+## Introduction
+
+R Markdown provides an unified authoring framework for data science, combining your code, its results, and your prose commentary. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more. 
+
+R Markdown files are designed to be used in three ways:
+
+1.  For communicating to decision makers, who want to focus on the conclusions,
+    not the code behind the analysis.
+
+1.  For collaborating with other data scientists (including future you!), who
+    are interested in both your conclusions, and how you reached them (i.e.
+    the code).
     
-1.  Create a new R Markdown document with _File > New File > R Markdown..._
-    Knit it by clicking the appropriate button. Knit it by using the 
-    appropriate keyboard short cut. Verify that you can modify the
-    input and see the output update.
-    
-1.  Compare and contrast the R notebook and R markdown files you created
-    above. How are the outputs similar? How are they different? How are
-    the inputs similar? How are they different? What happens if you
-    copy the YAML header from one to the other?
+1.  As an environment in which to _do_ data science, as a modern day lab 
+    notebook where you can capture not only what you did, but also what you
+    were thinking.
 
-1.  Create one new R Markdown document for each of the three built-in
-    formats: HTML, PDF and Word. Knit each of the three documents.
-    How does the output differ? How does the input differ? (You may need
-    to install LaTeX in order to build the PDF output --- RStudio will
-    prompt you if this is necessary.)
+R Markdown integrates a number of R packages and external tools. This means that help is, by-and-large, not available through `?`. Instead, as you work through this chapter, and use R Markdown in the future, keep these resources close to hand:
 
-## Text formatting with Markdown
+*   R Markdown Cheat Sheet: _Help > Cheatsheets > R Markdown Cheat Sheet_,
 
-Prose in `.Rmd` files is written in Markdown, a lightweight set of conventions for formatting plain text files. Markdown is designed to be easy to read and easy to write. It is also very easy to learn. The guide below shows how to use Pandoc's Markdown, a slightly extended version of Markdown that R Markdown understands.
+*   R Markdown Reference Guide: _Help > Cheatsheets > R Markdown Reference 
+    Guide_.
